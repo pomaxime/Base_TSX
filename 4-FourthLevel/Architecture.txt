@@ -1,0 +1,6 @@
+/app
+  /page.tsx
+/components
+  Hero.tsx
+  Navbar.tsx
+  CTA.tsx

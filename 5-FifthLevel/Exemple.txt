@@ -1,0 +1,10 @@
+🚀 Ce qui fait un site "Monsieur Pipeline"
+
+👉 Un site comme ça repose sur :
+
+- Hero (accroche)
+- Problème
+- Solution
+- Preuve sociale
+- Offre
+- CTA

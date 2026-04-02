@@ -1,0 +1,23 @@
+🧠 NIVEAU 0 — Comprendre ce que tu fais vraiment
+👉 TSX, c’est quoi ?
+
+TSX = TypeScript + JSX
+
+Donc :
+
+TypeScript → JavaScript avec typage (plus rigoureux, moins d’erreurs)
+JSX → syntaxe qui permet d’écrire du HTML dans du JS
+
+👉 Donc concrètement :
+➡️ Tu écris des composants React typés
+
+👉 Stack moderne (ce que TU dois utiliser)
+
+Si tu veux faire un site comme Monsieur Pipeline :
+
+⚙️ React
+⚙️ TypeScript
+⚙️ Next.js ← obligatoire aujourd’hui
+🎨 Tailwind CSS ← design rapide
+
+👉 Si tu n’utilises pas ça → tu perds du temps.

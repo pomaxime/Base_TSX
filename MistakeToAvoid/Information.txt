@@ -1,0 +1,15 @@
+❌ 1. Faire du HTML pur
+
+→ inutile avec React
+
+❌ 2. Ignorer TypeScript
+
+→ dette technique immédiate
+
+❌ 3. Tout mettre dans un seul fichier
+
+→ code ingérable
+
+❌ 4. Copier sans comprendre
+
+→ progression = 0
