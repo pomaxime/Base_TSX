@@ -194,12 +194,13 @@ npx tsc --noEmit
 
 
 ---
-
+#
 # End of English Section
 
 If you read English, you can stop here.
 The French version starts below.
-
+#
+#
 ---
 
 
