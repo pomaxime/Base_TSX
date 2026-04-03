@@ -2,7 +2,7 @@
 
 Progressive learning repository for React + TypeScript (TSX), from basics to page composition.
 
-Depot d'apprentissage progressif React + TypeScript (TSX), des bases jusqu'a l'assemblage d'une page complete.
+Dépôt d'apprentissage progressif React + TypeScript (TSX), des bases jusqu'à l'assemblage d'une page complète.
 
 ## Table of Contents (EN)
 
@@ -29,7 +29,7 @@ Depot d'apprentissage progressif React + TypeScript (TSX), des bases jusqu'a l'a
 - [Fichiers JSON et dossier node_modules](#fichiers-json-et-dossier-node_modules)
 - [Configuration technique](#configuration-technique)
 - [Commandes utiles](#commandes-utiles)
-- [Parcours pedagogique](#parcours-pedagogique)
+- [Parcours pédagogique](#parcours-pédagogique)
 
 ## Repository Goal
 
@@ -212,19 +212,19 @@ The French version starts below.
 
 ## Objectif du repo
 
-Apprendre les bases modernes de React + TypeScript de facon progressive:
+Apprendre les bases modernes de React + TypeScript de façon progressive:
 
-- creer des composants
-- passer des props typees
+- créer des composants
+- passer des props typées
 - styliser des sections
-- ajouter de l'interactivite
+- ajouter de l'interactivité
 - assembler une page complete
 
 ## Pour qui
 
-- debutants React/TypeScript
-- etudiants qui revoient les bases TSX
-- developpeurs qui veulent des exemples courts et clairs
+- débutants React/TypeScript
+- étudiants qui revoient les bases TSX
+- développeurs qui veulent des exemples courts et clairs
 
 ## Stack technique
 
@@ -235,12 +235,12 @@ Apprendre les bases modernes de React + TypeScript de facon progressive:
 
 ## Comment utiliser ce repo
 
-Ordre conseille:
+Ordre conseillé:
 
 1. Commencer par `0-LevelZero` pour les concepts.
-2. Continuer de `1-FirstLevel` a `5-FifthLevel`.
+2. Continuer de `1-FirstLevel` à `5-FifthLevel`.
 3. Pratiquer avec les dossiers `Exercise`.
-4. Lire `MistakeToAvoid` pour eviter les erreurs frequentes.
+4. Lire `MistakeToAvoid` pour éviter les erreurs fréquentes.
 
 ## Structure du repo
 
@@ -268,7 +268,7 @@ Base_TSX/
 ### 0-LevelZero
 
 - `Expectation.xt`
-  Introduction conceptuelle: definition de TSX, rappel TypeScript + JSX, et stack moderne ciblee pour des projets web actuels.
+  Introduction conceptuelle: définition de TSX, rappel TypeScript + JSX, et stack moderne ciblée pour des projets web actuels.
 
 ### 1-FirstLevel
 
@@ -276,25 +276,25 @@ Base_TSX/
   Premier composant React simple (`Hero`) avec rendu statique.
 
 - `Props_ReactHeart.tsx`
-  Introduction aux props typees via un type `Props` (`title`, `subtitle`).
+  Introduction aux props typées via un type `Props` (`title`, `subtitle`).
 
 - `Composition_ModernSiteKey.tsx`
-  Exemple de composition: import de `Hero` et passage de props pour construire une section reutilisable.
+  Exemple de composition: import de `Hero` et passage de props pour construire une section réutilisable.
 
 ### 2-SecondLevel
 
 - `Tailwind_Expectation.tsx`
-  Exemple de composant stylise avec des classes utilitaires (hero section avec typographie et espacement).
+  Exemple de composant stylisé avec des classes utilitaires (hero section avec typographie et espacement).
 
 ### 3-ThirdLevel
 
 - `LogicInteraction.tsx`
-  Logique interactive avec `useState`: bouton qui change de texte apres interaction utilisateur.
+  Logique interactive avec `useState`: bouton qui change de texte après interaction utilisateur.
 
 ### 4-FourthLevel
 
 - `Architecture.txt`
-  Schema d'organisation d'une app (dossier app + composants dedies).
+  Schéma d'organisation d'une app (dossier app + composants dédiés).
 
 - `PrincipalPage.tsx`
   Assemblage d'une page via composition de composants (`Navbar` + `Hero`).
@@ -302,57 +302,57 @@ Base_TSX/
 ### 5-FifthLevel
 
 - `Exemple.txt`
-  Plan de structure d'une landing page orientee conversion (Hero, probleme, solution, preuve sociale, offre, CTA).
+  Plan de structure d'une landing page orientée conversion (Hero, problème, solution, preuve sociale, offre, CTA).
 
 - `RealExemple.tsx`
-  Exemple concret de section CTA (Call To Action) stylisee.
+  Exemple concret de section CTA (Call To Action) stylisée.
 
 ### Exercise (Note importante)
 
-`Exercise/` est surtout mon espace personnel d'apprentissage en tant que createur du repo.
-Les exercices ont ete proposes par ChatGPT, et j'ecrase/actualise les fichiers au fur et a mesure pour les completer.
-Les lecteurs peuvent consulter ce dossier, mais ce n'est pas obligatoire d'essayer de tout comprendre en detail.
+`Exercise/` est surtout mon espace personnel d'apprentissage en tant que créateur du repo.
+Les exercices ont été proposés par ChatGPT, et j'écrase/actualise les fichiers au fur et à mesure pour les compléter.
+Les lecteurs peuvent consulter ce dossier, mais ce n'est pas obligatoire d'essayer de tout comprendre en détail.
 
 ### Exercise/First
 
 - `FirstComponentHero.tsx`
-  Version plus complete d'un hero avec props typees (`title`, `subtitle`, `buttonText`).
+  Version plus complète d'un hero avec props typées (`title`, `subtitle`, `buttonText`).
 
 - `InPage.tsx`
-  Page d'exercice qui instancie `Hero` avec des valeurs reelles.
+  Page d'exercice qui instancie `Hero` avec des valeurs réelles.
 
 ### Exercise/Second
 
 - `NavBar.tsx`
-  Navbar interactive avec `useEffect` + `useState`: style dynamique en fonction du scroll.
+  Navbar interactive avec `useEffect` + `useState`: style dynamique en fonction du défilement.
 
 ### MistakeToAvoid
 
 - `Information.txt`
-  Liste d'erreurs courantes a eviter (pas de HTML pur, ne pas ignorer TypeScript, etc.).
+  Liste d'erreurs courantes à éviter (pas de HTML pur, ne pas ignorer TypeScript, etc.).
 
 ## Fichiers JSON et dossier node_modules
 
 - `package.json`
-  Fichier principal du projet. Il contient les metadonnees (nom/version), les scripts, et les dependances.
+  Fichier principal du projet. Il contient les métadonnées (nom/version), les scripts, et les dépendances.
 
 - `package-lock.json`
-  Fichier de verrouillage genere par npm. Il fixe les versions exactes des dependances pour obtenir la meme installation sur toutes les machines.
+  Fichier de verrouillage généré par npm. Il fixe les versions exactes des dépendances pour obtenir la même installation sur toutes les machines.
 
 - `tsconfig.json`
   Configuration du compilateur TypeScript (mode JSX, cible, libs, niveau de strictness, fichiers inclus).
 
 - `node_modules/`
-  Dossier cree automatiquement par npm pour stocker toutes les dependances installees.
-  En general, on ne modifie pas son contenu a la main.
+  Dossier créé automatiquement par npm pour stocker toutes les dépendances installées.
+  En général, on ne modifie pas son contenu à la main.
 
 ## Configuration technique
 
 - `package.json`
-  Dependances React + types TypeScript/React necessaires au typage JSX.
+  Dépendances React + types TypeScript/React nécessaires au typage JSX.
 
 - `tsconfig.json`
-  Configuration TypeScript globale du repo (TS/TSX inclus, libs DOM, `jsx: react-jsx`, resolution module moderne).
+  Configuration TypeScript globale du repo (TS/TSX inclus, libs DOM, `jsx: react-jsx`, résolution module moderne).
 
 ## Commandes utiles
 
@@ -363,17 +363,17 @@ npm install
 npx tsc --noEmit
 ```
 
-- `npm install`: installe les dependances du repo.
-- `npx tsc --noEmit`: verifie le typage TypeScript sans generer de build.
+- `npm install`: installe les dépendances du repo.
+- `npx tsc --noEmit`: vérifie le typage TypeScript sans générer de build.
 
-## Parcours pedagogique
+## Parcours pédagogique
 
 Le repo suit une progression simple:
 
 1. Comprendre TSX.
 2. Construire des composants.
-3. Ajouter des props typees.
+3. Ajouter des props typées.
 4. Styliser proprement.
-5. Ajouter de l'interactivite.
+5. Ajouter de l'interactivité.
 6. Composer une page complete.
-7. Eviter les erreurs de base.
+7. Éviter les erreurs de base.
