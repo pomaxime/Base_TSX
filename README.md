@@ -1,4 +1,4 @@
-# Base_TSX - README FR/EN :
+# Base_TSX - README EN/FR :
 
 Progressive learning repository for React + TypeScript (TSX), from basics to page composition.
 
