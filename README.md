@@ -200,7 +200,6 @@ npx tsc --noEmit
 If you read English, you can stop here.
 The French version starts below.
 #
-#
 ---
 
 
