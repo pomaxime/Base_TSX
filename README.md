@@ -1,1 +1,330 @@
 # Base_TSX
+
+Progressive learning repository for React + TypeScript (TSX), from basics to page composition.
+Depot d'apprentissage progressif React + TypeScript (TSX), des bases jusqu'a l'assemblage d'une page complete.
+
+## Table of Contents (EN)
+
+- [Repository Goal](#repository-goal)
+- [Who This Is For](#who-this-is-for)
+- [Tech Stack](#tech-stack)
+- [How to Use This Repository](#how-to-use-this-repository)
+- [Repository Structure](#repository-structure)
+- [Folders and Files](#folders-and-files)
+- [Technical Setup](#technical-setup)
+- [Useful Commands](#useful-commands)
+- [Learning Path](#learning-path)
+- [Sommaire (FR)](#sommaire-fr)
+
+## Sommaire (FR)
+
+- [Objectif du repo](#objectif-du-repo)
+- [Pour qui](#pour-qui)
+- [Stack technique](#stack-technique)
+- [Comment utiliser ce repo](#comment-utiliser-ce-repo)
+- [Structure du repo](#structure-du-repo)
+- [Dossiers et fichiers](#dossiers-et-fichiers)
+- [Configuration technique](#configuration-technique)
+- [Commandes utiles](#commandes-utiles)
+- [Parcours pedagogique](#parcours-pedagogique)
+
+## Repository Goal
+
+Learn modern React + TypeScript fundamentals step by step:
+
+- build components
+- pass typed props
+- style UI sections
+- add interactivity
+- compose a complete page
+
+## Who This Is For
+
+- beginners in React/TypeScript
+- students reviewing TSX basics
+- developers looking for short, focused examples
+
+## Tech Stack
+
+- React
+- TypeScript
+- Modern JSX runtime (`react-jsx`)
+- Utility-first styling approach in examples (Tailwind-like classes)
+
+## How to Use This Repository
+
+Recommended order:
+
+1. Start with `0-LevelZero` for core concepts.
+2. Continue from `1-FirstLevel` to `5-FifthLevel`.
+3. Practice with `Exercise` folders.
+4. Review `MistakeToAvoid` for common pitfalls.
+
+## Repository Structure
+
+```text
+Base_TSX/
+├── 0-LevelZero/
+├── 1-FirstLevel/
+├── 2-SecondLevel/
+├── 3-ThirdLevel/
+├── 4-FourthLevel/
+├── 5-FifthLevel/
+├── Exercise/
+│   ├── First/
+│   └── Second/
+├── MistakeToAvoid/
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+## Folders and Files
+
+### 0-LevelZero
+
+- `Expectation.xt`
+  Concept introduction: TSX definition, TypeScript + JSX recap, and modern stack guidance.
+
+### 1-FirstLevel
+
+- `FirstComponent.tsx`
+  First simple React component (`Hero`) with static rendering.
+
+- `Props_ReactHeart.tsx`
+  Introduction to typed props with a `Props` type (`title`, `subtitle`).
+
+- `Composition_ModernSiteKey.tsx`
+  Composition example: imports `Hero` and passes props to create a reusable section.
+
+### 2-SecondLevel
+
+- `Tailwind_Expectation.tsx`
+  Styled component example with utility classes (hero section with spacing/typography).
+
+### 3-ThirdLevel
+
+- `LogicInteraction.tsx`
+  Interactivity with `useState`: a button changes label after user interaction.
+
+### 4-FourthLevel
+
+- `Architecture.txt`
+  High-level app organization example (app folder + dedicated components).
+
+- `PrincipalPage.tsx`
+  Page assembly using component composition (`Navbar` + `Hero`).
+
+### 5-FifthLevel
+
+- `Exemple.txt`
+  Landing page section blueprint (Hero, problem, solution, social proof, offer, CTA).
+
+- `RealExemple.tsx`
+  Concrete CTA section example.
+
+### Exercise/First
+
+- `FirstComponentHero.tsx`
+  More complete hero with typed props (`title`, `subtitle`, `buttonText`).
+
+- `InPage.tsx`
+  Exercise page that instantiates `Hero` with realistic values.
+
+### Exercise/Second
+
+- `NavBar.tsx`
+  Interactive navbar using `useEffect` + `useState`, with style changes on scroll.
+
+### MistakeToAvoid
+
+- `Information.txt`
+  Common mistakes to avoid (pure HTML mindset, skipping TypeScript, etc.).
+
+## Technical Setup
+
+- `package.json`
+  React dependencies and TypeScript/React typings required for JSX typing.
+
+- `tsconfig.json`
+  Global TypeScript config for the repo (TS/TSX includes, DOM libs, `jsx: react-jsx`, modern module resolution).
+
+## Useful Commands
+
+From the repository root:
+
+```bash
+npm install
+npx tsc --noEmit
+```
+
+- `npm install`: installs project dependencies.
+- `npx tsc --noEmit`: runs TypeScript type checking without emitting build files.
+
+## Learning Path
+
+1. Understand TSX.
+2. Build components.
+3. Add typed props.
+4. Style UI sections.
+5. Add interaction logic.
+6. Compose a page.
+7. Avoid common mistakes.
+
+
+
+---
+
+# End of English Section
+
+If you read English, you can stop here.
+The French version starts below.
+
+---
+
+
+
+## Objectif du repo
+
+Apprendre les bases modernes de React + TypeScript de facon progressive:
+
+- creer des composants
+- passer des props typees
+- styliser des sections
+- ajouter de l'interactivite
+- assembler une page complete
+
+## Pour qui
+
+- debutants React/TypeScript
+- etudiants qui revoient les bases TSX
+- developpeurs qui veulent des exemples courts et clairs
+
+## Stack technique
+
+- React
+- TypeScript
+- Runtime JSX moderne (`react-jsx`)
+- Approche utilitaire pour le style dans les exemples (classes type Tailwind)
+
+## Comment utiliser ce repo
+
+Ordre conseille:
+
+1. Commencer par `0-LevelZero` pour les concepts.
+2. Continuer de `1-FirstLevel` a `5-FifthLevel`.
+3. Pratiquer avec les dossiers `Exercise`.
+4. Lire `MistakeToAvoid` pour eviter les erreurs frequentes.
+
+## Structure du repo
+
+```text
+Base_TSX/
+├── 0-LevelZero/
+├── 1-FirstLevel/
+├── 2-SecondLevel/
+├── 3-ThirdLevel/
+├── 4-FourthLevel/
+├── 5-FifthLevel/
+├── Exercise/
+│   ├── First/
+│   └── Second/
+├── MistakeToAvoid/
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+## Dossiers et fichiers
+
+### 0-LevelZero
+
+- `Expectation.xt`
+  Introduction conceptuelle: definition de TSX, rappel TypeScript + JSX, et stack moderne ciblee pour des projets web actuels.
+
+### 1-FirstLevel
+
+- `FirstComponent.tsx`
+  Premier composant React simple (`Hero`) avec rendu statique.
+
+- `Props_ReactHeart.tsx`
+  Introduction aux props typees via un type `Props` (`title`, `subtitle`).
+
+- `Composition_ModernSiteKey.tsx`
+  Exemple de composition: import de `Hero` et passage de props pour construire une section reutilisable.
+
+### 2-SecondLevel
+
+- `Tailwind_Expectation.tsx`
+  Exemple de composant stylise avec des classes utilitaires (hero section avec typographie et espacement).
+
+### 3-ThirdLevel
+
+- `LogicInteraction.tsx`
+  Logique interactive avec `useState`: bouton qui change de texte apres interaction utilisateur.
+
+### 4-FourthLevel
+
+- `Architecture.txt`
+  Schema d'organisation d'une app (dossier app + composants dedies).
+
+- `PrincipalPage.tsx`
+  Assemblage d'une page via composition de composants (`Navbar` + `Hero`).
+
+### 5-FifthLevel
+
+- `Exemple.txt`
+  Plan de structure d'une landing page orientee conversion (Hero, probleme, solution, preuve sociale, offre, CTA).
+
+- `RealExemple.tsx`
+  Exemple concret de section CTA (Call To Action) stylisee.
+
+### Exercise/First
+
+- `FirstComponentHero.tsx`
+  Version plus complete d'un hero avec props typees (`title`, `subtitle`, `buttonText`).
+
+- `InPage.tsx`
+  Page d'exercice qui instancie `Hero` avec des valeurs reelles.
+
+### Exercise/Second
+
+- `NavBar.tsx`
+  Navbar interactive avec `useEffect` + `useState`: style dynamique en fonction du scroll.
+
+### MistakeToAvoid
+
+- `Information.txt`
+  Liste d'erreurs courantes a eviter (pas de HTML pur, ne pas ignorer TypeScript, etc.).
+
+## Configuration technique
+
+- `package.json`
+  Dependances React + types TypeScript/React necessaires au typage JSX.
+
+- `tsconfig.json`
+  Configuration TypeScript globale du repo (TS/TSX inclus, libs DOM, `jsx: react-jsx`, resolution module moderne).
+
+## Commandes utiles
+
+Depuis la racine du repo:
+
+```bash
+npm install
+npx tsc --noEmit
+```
+
+- `npm install`: installe les dependances du repo.
+- `npx tsc --noEmit`: verifie le typage TypeScript sans generer de build.
+
+## Parcours pedagogique
+
+Le repo suit une progression simple:
+
+1. Comprendre TSX.
+2. Construire des composants.
+3. Ajouter des props typees.
+4. Styliser proprement.
+5. Ajouter de l'interactivite.
+6. Composer une page complete.
+7. Eviter les erreurs de base.

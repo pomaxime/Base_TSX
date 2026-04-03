@@ -1,23 +1,27 @@
 type HeroProps = {
-  title: string // type string pour le titre
-  subtitle: string // type string pour le sous-titre
-  buttonText: string // type string pour le texte du bouton
+  title: string
+  subtitle: string
+  buttonText: string
 }
 
 export default function Hero({ title, subtitle, buttonText }: HeroProps) {
   return (
-    <section className="text-center py-20 bg-black text-white"> // texte centré, padding vertical, fond noir, texte blanc
-      <h1 className="text-5xl font-bold"> // classe pour le titre : taille 5xl, gras
-        {title}
-      </h1>
+    <section className="bg-black text-white py-20 text-center"> // section avec un fond noir, texte blanc, padding vertical et centré
+      <div className="max-w-3xl mx-auto px-4"> // div pour centrer le contenu et limiter la largeur, avec du padding horizontal
 
-      <p className="mt-4 text-lg text-black-400"> // classe pour le sous-titre : margin top, taille large, couleur gris clair
-        {subtitle}
-      </p>
+        <h1 className="text-5xl font-bold leading-tight">
+          {title}
+        </h1>
 
-      <button className="mt-6 px-6 py-3 bg-black text-white rounded"> // classe pour le bouton : margin top, padding horizontal et vertical, fond noir, texte blanc, bord arrondi
-        {buttonText}
-      </button>
+        <p className="mt-6 text-lg text-gray-400">
+          {subtitle}
+        </p>
+
+        <button className="mt-8 px-6 py-3 bg-white text-black rounded-lg font-semibold hover:bg-gray-200 transition">
+          {buttonText}
+        </button>
+
+      </div>
     </section>
   )
 }

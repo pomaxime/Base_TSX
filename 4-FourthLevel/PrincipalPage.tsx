@@ -1,5 +1,5 @@
-import Hero from "@/components/Hero"
-import Navbar from "@/components/Navbar"
+import Hero from "../2-SecondLevel/Tailwind_Expectation"
+import Navbar from "../Exercise/Second/NavBar"
 
 export default function Home() {
   return (
