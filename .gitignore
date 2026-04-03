@@ -1,0 +1,20 @@
+# Ignore entire training app folder (all files and subfolders)
+base-tsx-propre/
+base-tsx-propre/**
+
+# Next.js app
+base-tsx-propre/node_modules/
+base-tsx-propre/.next/
+base-tsx-propre/.vercel/
+base-tsx-propre/out/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/Editor
+.DS_Store
+.vscode/
