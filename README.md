@@ -128,6 +128,12 @@ Base_TSX/
 - `RealExemple.tsx`
   Concrete CTA section example.
 
+### Exercise (Important Note)
+
+`Exercise/` is mainly my personal learning space as the repository creator.
+The exercises were proposed by ChatGPT, and I overwrite/update the files progressively as I complete them.
+You are welcome to read this folder, but you do not need to understand every step in detail.
+
 ### Exercise/First
 
 - `FirstComponentHero.tsx`
@@ -300,6 +306,12 @@ Base_TSX/
 
 - `RealExemple.tsx`
   Exemple concret de section CTA (Call To Action) stylisee.
+
+### Exercise (Note importante)
+
+`Exercise/` est surtout mon espace personnel d'apprentissage en tant que createur du repo.
+Les exercices ont ete proposes par ChatGPT, et j'ecrase/actualise les fichiers au fur et a mesure pour les completer.
+Les lecteurs peuvent consulter ce dossier, mais ce n'est pas obligatoire d'essayer de tout comprendre en detail.
 
 ### Exercise/First
 
